@@ -1,0 +1,58 @@
+/*
+My first css style for Landing Page
+*/
+
+body {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    background-color: aliceblue;
+    color: blueviolet;
+
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+header,
+footer {
+    height: 70px;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    border-bottom: 5px solid sandybrown;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0px;
+    bottom: 0px;
+    border-bottom: 5px;
+    color: azure;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
